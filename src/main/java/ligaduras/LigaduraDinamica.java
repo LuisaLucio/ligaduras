@@ -1,3 +1,4 @@
+package ligaduras;
 import java.util.Scanner;
 
 /**
@@ -9,9 +10,9 @@ public class LigaduraDinamica {
         /* Ejemplo de ligadura dinamica */
         Scanner sc = new Scanner(System.in);
         System.out.print("Introduce el valor de c: ");
-        double c = sc.nextInt();
+        int c = sc.nextInt();
         System.out.print("Introduce el valor de d: ");
-        double d = sc.nextInt();
+        int d = sc.nextInt();
 
         System.out.println("El resultado de c+d es: "+ (c+d));
     }    
